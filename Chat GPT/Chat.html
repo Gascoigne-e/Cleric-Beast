@@ -10,22 +10,48 @@
 </head>
 <body>
     <!--Chat Container-->
-    <div class="char-container">
+    <div class="chat-container">
         <div class="chat outgoing">
             <div class="chat-content">
-                <div class="char-details">
+                <div class="chat-details">
                     <img src="user.jpg" alt="user">
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium ullam a magnam reprehenderit aperiam, atque nam facere suscipit labore rem eum, ipsa itaque laboriosam ad libero quae. Sed, minima voluptas!</p>
+                    <p>Lorem, ipssum dolor sit amet consectetur adipisicing elit. </p>
                 </div>
             </div>
         </div>
         <div class="chat incoming">
             <div class="chat-content">
-                <div class="char-details">
+                <div class="chat-details">
                     <img src="chatbot.jpg" alt="user">
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium ullam a magnam reprehenderit aperiam, atque nam facere suscipit labore rem eum, ipsa itaque laboriosam ad libero quae. Sed, minima voluptas!</p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. </p>
                 </div>
                 <span class="material-symbols-rounded"><i class="fa-regular fa-copy"></i></span>
+            </div>
+        </div>
+        <div class="chat incoming">
+            <div class="chat-content">
+                <div class="chat-details">
+                    <img src="chatbot.jpg" alt="user">
+                    <div class="typing-animation">
+                        <div class="typing-dot" style="--delay: 0.2s"></div>
+                        <div class="typing-dot" style="--delay: 0.3s"></div>
+                        <div class="typing-dot" style="--delay: 0.4s"></div>
+                    </div>
+                <span class="material-symbols-rounded"><i class="fa-regular fa-copy"></i></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="typing-container">
+        <div class="typing-content">
+            <div class="typing-textarea">
+                <textarea id="chat-input" placeholder="Enter a prompt here"></textarea>
+                <span id="send-btn"class="material-symbols-rounded"><i class="fa-solid fa-paper-plane"></i></span>
+
+            </div>
+            <div class="typing-controls">
+                <span id="theme-btn"class="material-symbols-rounded"><i class="fa-regular fa-sun"></i></span>
+                <span id="delete-btn"class="material-symbols-rounded"><i class="fa-solid fa-trash"></i></span>
             </div>
         </div>
     </div>
