@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+NZ:wght@100..400&display=swap');
+
+.contain {
+    background: rgb(19,24,66);
+    background: linear-gradient(90deg, rgba(19,24,66,1) 0%, rgba(230,131,105,1) 35%, rgba(236,206,174,1) 100%); 
+    background-color: black;
+    height: 2600px;
+    display: grid;
+    gap: 30px;
+    grid-template-columns: 1fr 1fr 0.5fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+    margin: 0px;
+}
+
+.box1 {
+    background-image: url(background-1311251_1920.jpg);
+grid-column: span 2;
+height: 400px;
+display: flex;
+align-items: center;
+font-family: "Playfair Display", serif;
+padding: 0px;
+}
+
+.intro {
+    justify-self: center;
+    font-size: 60px;
+letter-spacing: 10px;
+padding-left: 180px;
+}
+
+.intro1 {
+justify-self: flex-end;
+    transform: rotateZ(90deg);
+    font-size: 20px;
+  padding-bottom: 400px;
+}
+
+.intro2 {
+    align-self: flex-end;
+    justify-self: flex-start;
+    font-size: 20px;
+}
+
+.box2 {
+    background-color: #131842;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Playfair Display", serif;
+    font-size: 40px;
+    letter-spacing: 5px;
+    color: white;
+}
+
+
+
+.box3 {
+    background-color:#ffffff;
+    grid-column: span 3;
+    margin-left: 100px;
+    margin-right: 100px;
+    height: 600px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   
+   overflow: hidden;
+}
+
+.profile1 > img{
+    height: 150px;
+    border-radius: 50%;
+}
+ 
+.profile1 {
+    padding-top: 100px;
+}
+
+.profile2 {
+    font-family: "Playwrite NZ", serif;
+    font-size: 30px;
+    padding-top: 25px;
+}
+
+.profile3 {
+    width: 200px;
+    text-align: center;
+    font-family: "Playfair Display", serif;
+}
+
+ 
+
+
+.box4 {
+    background-color: #FFC7C7;
+    
+    grid-area: 3/1/4/3;
+    height: 400px;
+    
+}
+
+.box5 {
+    background-color: #131842;
+    grid-area: 3/3/5/4;
+   
+}
+
+.box6 {
+    background-color: azure;
+    grid-area: 4/1/5/3;
+    height: 400px;
+}
+.box7 {
+    background-color: #FFE2E2;
+    grid-area: 5/1/6/4;
+    margin-left: 100px;
+    margin-right: 100px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.box8 {
+    background-color: #131842;
+    grid-area: 6/1/8/4;
+    font-family: "Playfair Display", serif;
+}
